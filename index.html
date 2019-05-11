@@ -52,10 +52,23 @@
     </div>
   </nav>
 
+  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+              class="sr-only">Close</span></button>
+          <img src="" class="imagepreview" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <header>
     <div class="overlay"></div>
 
-    <video src="/media/videos/granada2.mp4" autoplay loop muted preload="auto" poster="/media/images/granada-background.jpg">
+    <video src="/media/videos/granada2.mp4" autoplay loop muted preload="auto"
+      poster="/media/images/granada-background.jpg">
       Tu navegador no admite el elemento <code>video</code>.
     </video>
 
@@ -68,19 +81,22 @@
       </div>
     </div>
   </header>
-  
+
 
   <section id="interes">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Lugares de interés</h2>
-          <p class="lead">Granada es música y poesía, puro arte monumental, cultura milenaria. 
-            Es provincia que alcanza el cielo desde las escarpadas cumbres de Sierra Nevada; 
-            ciudades de impresionante arquitectura que se encalman en el Altiplano; 
-            pueblos blancos desparramados por valles y laderas que mueren en los acantilados y playas de la Costa Tropical. 
-            La provincia de Granada, privilegiado destino turístico, permite al viajero practicar esquí en Sierra Nevada, aventurarse por los recónditos pueblos alpujarreños, recorrer 
-            la última frontera de Al-Andalus en el Poniente Granadino o alojarse en cuevas que rememoran la vida troglodita.
+          <p class="lead">Granada es música y poesía, puro arte monumental, cultura milenaria.
+            Es provincia que alcanza el cielo desde las escarpadas cumbres de Sierra Nevada;
+            ciudades de impresionante arquitectura que se encalman en el Altiplano;
+            pueblos blancos desparramados por valles y laderas que mueren en los acantilados y playas de la Costa
+            Tropical.
+            La provincia de Granada, privilegiado destino turístico, permite al viajero practicar esquí en Sierra
+            Nevada, aventurarse por los recónditos pueblos alpujarreños, recorrer
+            la última frontera de Al-Andalus en el Poniente Granadino o alojarse en cuevas que rememoran la vida
+            troglodita.
             <br>
             <br>
             Estos son algunos de los lugares más destacados de esta hermosa ciudad:
@@ -88,79 +104,86 @@
             <br>
           </p>
 
-		  
-  <div class="row">
-    <div class="col-lg-4 col-sm-6 mb-4">
-      <div class="card h-100">
-        <img class="card-img-top" src="/media/images/catedral.jpeg">
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="http://catedraldegranada.com/">Catedral de Granada</a>
-          </h4>
-          <p class="card-text">Espectacular catedral renacentista con interior blanco y dorado, famosa por su capilla y cúpula con vidrieras.</p>
-		  </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 mb-4">
-      <div class="card h-100">
-        <img class="card-img-top" src="/media/images/albaicin.jpg">
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="https://www.guiasgranada.com/albaicin-centro.php">Albaicín</a>
-          </h4>
-          <p class="card-text">El barrio del Albaicín, declarado Patrimonio de la Humanidad en 1984, fue el germen de la actual ciudad de Granada y conserva aún toda la magia de su pasado árabe.</p>
-		  </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 mb-4">
-      <div class="card h-100">
-        <img class="card-img-top" src="/media/images/sacromonte.jpg">
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="http://www.granadadirect.com/rincones/sacromonte-granada/">Sacromonte</a>
-          </h4>
-          <p class="card-text">El Sacromonte es conocido como el barrio gitano. Los visitantes acuden a este cerro de Granada por la noche en busca de cante y baile. 
-		  Los locales situados por el Camino del Sacromonte, en la ladera del cerro, ofrecen dramáticos espectáculos de flamenco.</p>
-		  </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 mb-4">
-      <div class="card h-100">
-        <img class="card-img-top" src="/media/images/ciudadciencias.png">
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">Ciudad de las ciencias de Granada</a>
-          </h4>
-          <p class="card-text">Naturaleza, astronomía, juegos de mecánica, efectos ópticos o un viaje al interior del cuerpo humano son algunos de los contenidos permanentes 
-		  del museo para todas las edades.</p>
-		  </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 mb-4">
-      <div class="card h-100">
-        <img class="card-img-top" src="/media/images/mirador.jpg">
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">Mirador de San Nicolás</a>
-          </h4>
-          <p class="card-text">El Mirador de San Nicolás es quizás el más famoso de Granada. Desde que Bill Clinton lo visitara en 1997 y dijera que vio “la puesta de sol más bonita del mundo”, 
-		  se ha convertido en visita obligada para los turistas. </p>
-		  </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-6 mb-4">
-      <div class="card h-100">
-        <img class="card-img-top" src="/media/images/elvira.jpg">
-        <div class="card-body">
-          <h4 class="card-title">
-            <a href="#">Calle Elvira</a>
-          </h4>
-          <p class="card-text">Calle estrecha y empedrada pintoresca , con tiendas y restaurantes de estilo marroquí , que te lleva a otra época y cuya fisonomía a lo largo de los siglos no ha cambiado mucho. 
-		  Agradable paseo por esta calle que comienza en el Arco de Elvira y finaliza en Plaza Nueva.</p>
-		  </div>
-      </div>
-    </div>
-  </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <a class="pop"><img class="card-img-top" src="/media/images/catedral.jpeg"></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="http://catedraldegranada.com/">Catedral de Granada</a>
+                  </h4>
+                  <p class="card-text">Espectacular catedral renacentista con interior blanco y dorado, famosa por su
+                    capilla y cúpula con vidrieras.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <a class="pop"><img class="card-img-top" src="/media/images/albaicin.jpg"></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="https://www.guiasgranada.com/albaicin-centro.php">Albaicín</a>
+                  </h4>
+                  <p class="card-text">El barrio del Albaicín, declarado Patrimonio de la Humanidad en 1984, fue el
+                    germen de la actual ciudad de Granada y conserva aún toda la magia de su pasado árabe.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <a class="pop"><img class="card-img-top" src="/media/images/sacromonte.jpg"></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="http://www.granadadirect.com/rincones/sacromonte-granada/">Sacromonte</a>
+                  </h4>
+                  <p class="card-text">El Sacromonte es conocido como el barrio gitano. Los visitantes acuden a este
+                    cerro de Granada por la noche en busca de cante y baile.
+                    Los locales situados por el Camino del Sacromonte, en la ladera del cerro, ofrecen dramáticos
+                    espectáculos de flamenco.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <a class="pop"><img class="card-img-top" src="/media/images/ciudadciencias.png"></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Ciudad de las ciencias de Granada</a>
+                  </h4>
+                  <p class="card-text">Naturaleza, astronomía, juegos de mecánica, efectos ópticos o un viaje al
+                    interior del cuerpo humano son algunos de los contenidos permanentes
+                    del museo para todas las edades.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <a class="pop"><img class="card-img-top" src="/media/images/mirador.jpg"></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Mirador de San Nicolás</a>
+                  </h4>
+                  <p class="card-text">El Mirador de San Nicolás es quizás el más famoso de Granada. Desde que Bill
+                    Clinton lo visitara en 1997 y dijera que vio “la puesta de sol más bonita del mundo”,
+                    se ha convertido en visita obligada para los turistas. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="card h-100">
+                <a class="pop"><img class="card-img-top" src="/media/images/elvira.jpg"></a>
+                <div class="card-body">
+                  <h4 class="card-title">
+                    <a href="#">Calle Elvira</a>
+                  </h4>
+                  <p class="card-text">Calle estrecha y empedrada pintoresca , con tiendas y restaurantes de estilo
+                    marroquí , que te lleva a otra época y cuya fisonomía a lo largo de los siglos no ha cambiado mucho.
+                    Agradable paseo por esta calle que comienza en el Arco de Elvira y finaliza en Plaza Nueva.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
@@ -276,6 +299,9 @@
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
+
+  <!-- Open image in modal -->
+  <script src="/js/open-image.js"></script>
 
 </body>
 
