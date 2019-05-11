@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 
@@ -24,9 +24,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Fontawesome icons -->
-  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
-    integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous">
-  </script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
@@ -41,7 +39,8 @@
 
 <body id="page-top">
 
-  <audio src="media/sounds/song_background.aac" autoplay loop preload="auto" id="song" alt="Música ambiente."> 
+  <audio src="media/sounds/song_background.aac" autoplay loop preload="auto" id="song"> 
+    Música de ambiente.
     Tu navegador no admite el elemento <code>audio</code>.
   </audio>
 
@@ -51,7 +50,7 @@
         <div class="modal-body">
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
               class="sr-only">Close</span></button>
-          <img src="" class="imagepreview" style="width: 100%;">
+          <img src="" class="imagepreview" style="width: 100%;" alt="Ventana modal para ver las imagenes de cerca">
         </div>
       </div>
     </div>
@@ -61,7 +60,7 @@
   <nav class="navbar navbar-light navbar-expand-lg fixed-top" style="background-color: #e3f2fd;" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="media/images/700px-Escudo_de_Granada.svg.png" width="19.8" height="30"
+        <img src="media/images/escudo_granada.png" width="19.8" height="30"
           class="d-inline-block align-top" alt="Escudo de Granada.">
         Visita Granada
       </a>
@@ -95,8 +94,9 @@
     <div class="overlay"></div>
 
     <video autoplay="true" loop="true" muted poster="media/images/granada-background.jpg">
-      <source src="media/videos/granada2.mp4" type="video/mp4" alt="Vídeo que resume las costumbres y paisajes de la ciudad de Granada.">
-      Tu navegador no admite el elemento <code>video</code>.
+      <source src="media/videos/granada2.mp4" type="video/mp4">
+        Vídeo que resume las costumbres y paisajes de la ciudad de Granada.
+        Tu navegador no admite el elemento <code>video</code>.
     </video>
 
     <div class="container h-100">
