@@ -58,10 +58,23 @@
     </div>
   </nav>
 
+  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+              class="sr-only">Close</span></button>
+          <img src="" class="imagepreview" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <header>
     <div class="overlay"></div>
 
-    <video src="/media/videos/granada2.mp4" autoplay loop muted preload="auto" poster="/media/images/granada-background.jpg">
+    <video src="/media/videos/granada2.mp4" autoplay loop muted preload="auto"
+      poster="/media/images/granada-background.jpg">
       Tu navegador no admite el elemento <code>video</code>.
     </video>
 
@@ -74,19 +87,22 @@
       </div>
     </div>
   </header>
-  
+
 
   <section id="interes">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Lugares de interés</h2>
-          <p class="lead">Granada es música y poesía, puro arte monumental, cultura milenaria. 
-            Es provincia que alcanza el cielo desde las escarpadas cumbres de Sierra Nevada; 
-            ciudades de impresionante arquitectura que se encalman en el Altiplano; 
-            pueblos blancos desparramados por valles y laderas que mueren en los acantilados y playas de la Costa Tropical. 
-            La provincia de Granada, privilegiado destino turístico, permite al viajero practicar esquí en Sierra Nevada, aventurarse por los recónditos pueblos alpujarreños, recorrer 
-            la última frontera de Al-Andalus en el Poniente Granadino o alojarse en cuevas que rememoran la vida troglodita.
+          <p class="lead">Granada es música y poesía, puro arte monumental, cultura milenaria.
+            Es provincia que alcanza el cielo desde las escarpadas cumbres de Sierra Nevada;
+            ciudades de impresionante arquitectura que se encalman en el Altiplano;
+            pueblos blancos desparramados por valles y laderas que mueren en los acantilados y playas de la Costa
+            Tropical.
+            La provincia de Granada, privilegiado destino turístico, permite al viajero practicar esquí en Sierra
+            Nevada, aventurarse por los recónditos pueblos alpujarreños, recorrer
+            la última frontera de Al-Andalus en el Poniente Granadino o alojarse en cuevas que rememoran la vida
+            troglodita.
             <br>
             <br>
             Estos son algunos de los lugares más destacados de esta hermosa ciudad:
@@ -328,6 +344,9 @@ El complejo, cuya visita requiere al menos tres horas, está situado sobre la co
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
+
+  <!-- Open image in modal -->
+  <script src="/js/open-image.js"></script>
 
 </body>
 
