@@ -23,6 +23,22 @@
 
 <body id="page-top">
 
+    <audio src="/media/sounds/song_background.aac" autoplay loop preload="auto" id="song">
+      Tu navegador no admite el elemento <code>audio</code>.
+    </audio>
+
+  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
+              class="sr-only">Close</span></button>
+          <img src="" class="imagepreview" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Navigation -->
   <nav class="navbar navbar-light navbar-expand-lg fixed-top" style="background-color: #e3f2fd;" id="mainNav">
     <div class="container">
@@ -52,17 +68,6 @@
     </div>
   </nav>
 
-  <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span
-              class="sr-only">Close</span></button>
-          <img src="" class="imagepreview" style="width: 100%;">
-        </div>
-      </div>
-    </div>
-  </div>
 
   <header>
     <div class="overlay"></div>
@@ -302,6 +307,12 @@
 
   <!-- Open image in modal -->
   <script src="/js/open-image.js"></script>
+
+  <!-- Set volume -->
+  <script>
+    var sound = document.getElementById("song");
+    sound.volume = 0.1;
+  </script>
 
 </body>
 
