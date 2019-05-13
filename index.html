@@ -39,11 +39,6 @@
 
 <body id="page-top">
 
-  <audio src="media/sounds/song_background.aac" autoplay loop preload="auto" id="song">
-    Música de ambiente.
-    Tu navegador no admite el elemento <code>audio</code>.
-  </audio>
-
   <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -71,6 +66,12 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <audio src="media/sounds/song_background.aac" controls autoplay loop preload="auto" style="height: 100%;" id="song">
+                Música de ambiente.
+                Tu navegador no admite el elemento <code>audio</code>.
+              </audio>
+          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interes"><span class="fas fa-map-marker-alt"></span> Lugares de
               interés</a>
