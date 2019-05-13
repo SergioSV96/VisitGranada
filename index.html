@@ -91,6 +91,9 @@
               Alhambra</a>
           </li>
           <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#postal"><span class="fas fa-envelope-open-text"></span> Postal</a>
+            </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger " href="#contacto"><span class="far fa-envelope"></span> Contacto</a>
           </li>
         </ul>
@@ -387,7 +390,50 @@
   </section>
 
 
-  <section id="contacto" class="bg-light">
+  <section id="postal" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2><span class="fas fa-envelope-open-text"></span> Postal</h2>
+          <p class="lead">¿Quieres mandarle a esa persona especial una postal de Granada?
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <form action="mailto:example@example.com?subject=Postal de Granada" target="_blank" method="post" enctype="text/plain"
+            class="form-horizontal">
+            <div class="form-group">
+              <label for="nombre" class="col-sm-2 control-label">Nombre</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Tu nombre">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email destinatario">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="mensaje" class="col-sm-2 control-label">Mensaje</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" rows="3" name="mensaje" placeholder="Tu mensaje"></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-dark"><span class="fas fa-envelope"></span> Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contacto">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
